@@ -1,0 +1,31 @@
+PODS:
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - EGOTableViewPullRefresh (0.1.0)
+  - NSDate+Helper (1.0.4)
+  - RKDropdownAlert (0.3.0)
+  - TDBadgedCell (2.6)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - EGOTableViewPullRefresh
+  - NSDate+Helper
+  - RKDropdownAlert
+  - TDBadgedCell (~> 2.6)
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  EGOTableViewPullRefresh: d4c15be51914f4168d6fd7529b6ad3a4ab01e5f4
+  NSDate+Helper: 78f517ac1c67914096433466fa7d20b812b9d86c
+  RKDropdownAlert: f4b3364c251829ad439dc666836a1f2dad26f4c7
+  TDBadgedCell: 522ef0fe70221a031eff8d424f5d57379f652088
+
+PODFILE CHECKSUM: 9412f02d85d291058cb5c8ccba9cf6261054a7d5
+
+COCOAPODS: 1.1.1

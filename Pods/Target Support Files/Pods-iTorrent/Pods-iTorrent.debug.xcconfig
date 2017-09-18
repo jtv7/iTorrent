@@ -1,0 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/EGOTableViewPullRefresh" "${PODS_ROOT}/Headers/Public/NSDate+Helper" "${PODS_ROOT}/Headers/Public/RKDropdownAlert" "${PODS_ROOT}/Headers/Public/TDBadgedCell"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CocoaLumberjack" "$PODS_CONFIGURATION_BUILD_DIR/EGOTableViewPullRefresh" "$PODS_CONFIGURATION_BUILD_DIR/NSDate+Helper" "$PODS_CONFIGURATION_BUILD_DIR/RKDropdownAlert" "$PODS_CONFIGURATION_BUILD_DIR/TDBadgedCell"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CocoaLumberjack" -isystem "${PODS_ROOT}/Headers/Public/EGOTableViewPullRefresh" -isystem "${PODS_ROOT}/Headers/Public/NSDate+Helper" -isystem "${PODS_ROOT}/Headers/Public/RKDropdownAlert" -isystem "${PODS_ROOT}/Headers/Public/TDBadgedCell"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CocoaLumberjack" -l"EGOTableViewPullRefresh" -l"NSDate+Helper" -l"RKDropdownAlert" -l"TDBadgedCell" -framework "QuartzCore"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
